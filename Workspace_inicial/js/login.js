@@ -2,12 +2,12 @@
 //que el documento se encuentra cargado, es decir, se encuentran todos los
 //elementos HTML presentes.
 
-document.addEventListener("DOMContentLoaded", function(e){
+document.addEventListener("DOMContentLoaded", function (e) {
 });
 
 //función para redireccionar
-function redirect(){
-    location.href="https://juanmescobar.github.io/Jap-github/Workspace_inicial/main/"
+function redirect() {
+    location.href = "https://juanmescobar.github.io/Jap-github/Workspace_inicial/main/"
 }
 const loginForm = document.getElementById("login-form");
 
@@ -17,8 +17,6 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username.includes(@)  && 8<(length(password))<16 {
-        redirect();
-    }
-})
-
+    if (username.includes("@") && +8 < (length(password)) < +16){
+    redirect();
+}} 
