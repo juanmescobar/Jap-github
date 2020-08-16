@@ -19,8 +19,6 @@ loginButton.addEventListener("click", (e) => {
 
     if (username.includes(@)  && 8<(length(password))<16 {
         redirect();
-    } else {
-        loginErrorMsg.style.opacity = 1;
     }
 })
 
