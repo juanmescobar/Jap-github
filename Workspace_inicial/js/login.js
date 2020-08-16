@@ -10,13 +10,15 @@ function redirect() {
     location.href = "https://juanmescobar.github.io/Jap-github/Workspace_inicial/main/"
 }
 const loginForm = document.getElementById("login-form");
+const submit = document.getElementById("submit")
 
 // verificación del form antes de redireccionar
-loginButton.addEventListener("click", (e) => {
-    e.preventDefault();
+submit.addEventListener("click", (e) => {
+    e.preventDefault()
+
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
     if (username.includes("@") && +8 < (length(password)) < +16){
     redirect();
-}} 
+}}
